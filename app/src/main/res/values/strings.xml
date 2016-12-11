@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">AutoZekrCounter</string>
+    <string name="title_activity_main_">MainActivity_</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="YET_MESSAGE_PART1">شما تا کنون</string>
+    <string name="YET_MESSAGE_PART2">ذکر گفته اید.</string>
+    <string name="alaho_akbar">الله اکبر</string>
+    <string name="al_hamd_">الحمدلله </string>
+    <string name="sob_han_alah">سبحان الله</string>
+    <string name="salavat">اَللّهُمَّ صَلِّ عَلى‏ مُحَمَّدٍ وَآلِ مُحَمَّدٍ</string>
+    <string name="zekr_Saturday">یا رب العالمین</string>
+    <string name="zekr_Sunday">یا ذالجلال والاکرام</string>
+    <string name="zekr_Monday">یا قاضی الحاجات</string>
+    <string name="zekr_Tuesday">یا ارحم الراحمین</string>
+    <string name="zekr_Wednesday">یا حی یا قیوم</string>
+    <string name="zekr_Thursday">لا اله الا الله الملک الحق المبین</string>
+    <string name="zekr_Friday">@string/salavat</string>
+
+</resources>

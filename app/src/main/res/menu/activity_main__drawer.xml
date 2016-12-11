@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_salavat"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="صلوات" />
+        <item
+            android:id="@+id/nav_Tasbihat_H_Z"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="تسبیحات حضرت زهرا" />
+
+
+        <item android:title="ذکر روزهای هفته">
+            <menu>
+                <item
+                    android:id="@+id/nav_Saturday"
+                    android:title="شنبه" />
+                <item
+                    android:id="@+id/nav_Sunday"
+                    android:title="یکشنبه" />
+                <item
+                    android:id="@+id/nav_Monday"
+                    android:title="دوشنبه" />
+                <item
+                    android:id="@+id/nav_Tuesday"
+                    android:title="سه‌شنبه" />
+                <item
+                    android:id="@+id/nav_Wednesday"
+                    android:title="چهارشنبه" />
+                <item
+                    android:id="@+id/nav_Thursday"
+                    android:title="پنجشنبه" />
+                <item
+                    android:id="@+id/nav_Friday"
+                    android:title="جمعه" />
+            </menu>
+
+        </item>
+
+
+    </group>
+
+    <item android:title="تنظیمات">
+        <menu>
+            <item
+                android:id="@+id/nav_add_zekr"
+                android:icon="@drawable/ic_menu_share"
+                android:title="اضافه کردن ذکر" />
+        </menu>
+    </item>
+
+</menu>
