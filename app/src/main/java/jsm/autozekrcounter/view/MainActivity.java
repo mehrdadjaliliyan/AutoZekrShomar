@@ -102,11 +102,11 @@ public class MainActivity extends AppCompatActivity
             RequestZekrPackage zekrPackage = new RequestZekrPackage();
             zekrPackage.addZekr(zekr1);
             startFragment(zekrPackage, R.id.nav_Wednesday);
-        } else if (id == R.id.nav_Tuesday) {
-            ZekrModel zekr1 = new ZekrModel(getString(R.string.zekr_Tuesday), 100);
+        } else if (id == R.id.nav_Thursday) {
+            ZekrModel zekr1 = new ZekrModel(getString(R.string.zekr_Thursday), 100);
             RequestZekrPackage zekrPackage = new RequestZekrPackage();
             zekrPackage.addZekr(zekr1);
-            startFragment(zekrPackage, R.id.nav_Tuesday);
+            startFragment(zekrPackage, R.id.nav_Thursday);
         } else if (id == R.id.nav_Friday) {
             ZekrModel zekr1 = new ZekrModel(getString(R.string.zekr_Friday), 100);
             RequestZekrPackage zekrPackage = new RequestZekrPackage();

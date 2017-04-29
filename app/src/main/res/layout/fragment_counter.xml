@@ -8,12 +8,12 @@
     <!-- TODO: Update blank fragment layout -->
 
     <!--<android.support.design.widget.FloatingActionButton-->
-        <!--android:id="@+id/fab"-->
-        <!--android:layout_width="wrap_content"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:layout_gravity="bottom|end"-->
-        <!--android:layout_margin="@dimen/fab_margin"-->
-        <!--app:srcCompat="@android:drawable/ic_menu_save" />-->
+    <!--android:id="@+id/fab"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_gravity="bottom|end"-->
+    <!--android:layout_margin="@dimen/fab_margin"-->
+    <!--app:srcCompat="@android:drawable/ic_menu_save" />-->
 
     <com.github.clans.fab.FloatingActionMenu
         android:id="@+id/menu_yellow"
@@ -21,35 +21,35 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
-        android:layout_marginRight="16dp"
+        android:layout_gravity="bottom|end"
         android:layout_marginBottom="16dp"
         android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
         android:layout_marginTop="16dp"
-        android:layout_gravity="bottom|end"
-        app:menu_labels_style="@style/MenuLabelsStyle"
-        app:menu_labels_showAnimation="@anim/jump_from_down"
-        app:menu_labels_hideAnimation="@anim/jump_to_down"
         app:menu_animationDelayPerItem="0"
-        app:menu_shadowColor="#444"
         app:menu_colorNormal="#FFB805"
         app:menu_colorPressed="#F2AB00"
-        app:menu_colorRipple="#D99200">
+        app:menu_colorRipple="#D99200"
+        app:menu_labels_hideAnimation="@anim/jump_to_down"
+        app:menu_labels_showAnimation="@anim/jump_from_down"
+        app:menu_labels_style="@style/MenuLabelsStyle"
+        app:menu_shadowColor="#444">
 
         <com.github.clans.fab.FloatingActionButton
             android:id="@+id/fabSave"
+            style="@style/MenuButtonsStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/ic_edit"
-            app:fab_label="ذخیره"
-            style="@style/MenuButtonsStyle" />
+            app:fab_label="ذخیره" />
 
         <com.github.clans.fab.FloatingActionButton
             android:id="@+id/fabClear"
+            style="@style/MenuButtonsStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/ic_edit"
-            app:fab_label="پاک کردن"
-            style="@style/MenuButtonsStyle" />
+            app:fab_label="پاک کردن" />
     </com.github.clans.fab.FloatingActionMenu>
 
     <LinearLayout
@@ -95,9 +95,14 @@
 
         <Button
             android:id="@+id/buttonNext"
-            android:layout_width="wrap_content"
+           android:textColor="@android:color/white"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/button_pattern"
             android:paddingTop="10dp"
             android:text="بعدی" />
 
