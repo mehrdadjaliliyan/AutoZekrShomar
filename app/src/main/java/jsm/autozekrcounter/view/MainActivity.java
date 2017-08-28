@@ -1,5 +1,6 @@
 package jsm.autozekrcounter.view;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -34,6 +35,10 @@ public class MainActivity extends AppCompatActivity
         navigationView.setNavigationItemSelectedListener(this);
 
         showfragmentSalavat();
+
+        Intent intent = new Intent(MainActivity.this, SpeechToTextActivity.class);
+        startActivity(intent);
+
     }
 
     @Override
